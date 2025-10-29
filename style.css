@@ -9,6 +9,10 @@ body{
     flex-direction: column;
 }
 
+img{
+    border-radius: 15px;
+}
+
 .top{
     background-color: #1f2937;
 }
