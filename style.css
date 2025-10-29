@@ -13,6 +13,16 @@ img{
     border-radius: 15px;
 }
 
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    min-width: 80px;
+    min-height: 35px;
+    max-width: 80px;
+    max-height: 35px;
+    }
+
 .top{
     background-color: #1f2937;
 }
@@ -68,10 +78,16 @@ img{
     color: #e5e7eb;
 }
 
-button{
-    background-color: #3882f6;
-    color: #f9faf8;
-    border-radius: 15px;
+
+.mid-title{
+    text-align: center;
+    padding: 60px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
+.mid-images{
+    display: flex;
+}
 
