@@ -87,7 +87,15 @@ button{
     font-weight: 900;
 }
 
-.mid-images{
+.mid{
     display: flex;
+    gap: 52px;
+    justify-content: center;
+}
+
+.mid-images div{
+    max-width: 150px;
+    text-align: center;
+    color: rgb(90, 90, 90);
 }
 
