@@ -11,6 +11,8 @@ body{
 
 img{
     border-radius: 15px;
+    border: solid #3882F6 5px;
+
 }
 
 button{
@@ -21,7 +23,8 @@ button{
     min-height: 35px;
     max-width: 80px;
     max-height: 35px;
-    }
+    border: solid #f9faf8 2px;
+}
 
 .top{
     background-color: #1f2937;
@@ -35,6 +38,7 @@ button{
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
+    padding-top: 30px;
     margin-left: 380px;
     margin-right: 380px;
 }
@@ -58,17 +62,17 @@ button{
     flex: 1;
     justify-content: flex-end;
     padding: 150px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-top: 120px;
     margin-left: 400px;
     margin-right: 400px;
-    gap: 25px;
+    gap: 30px;
 }
 
 .top-mid-text{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .hero-main-text{
@@ -95,11 +99,13 @@ button{
     display: flex;
     gap: 52px;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .mid-images div{
     max-width: 150px;
     text-align: center;
+    padding-top: 10px;
     color: rgb(90, 90, 90);
 }
 
